@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chapterx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/brain_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/brain_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChapterOne"></activity>
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".MainActivity3_q2"></activity>
+        <activity android:name=".MainActivity4"></activity>
+        <activity android:name=".MainActivity5_q1"></activity>
+        <activity android:name=".MainActivity5_q2"></activity>
+        <activity android:name=".MainActivity5_q3"></activity>
+        <activity android:name=".MainActivity6"></activity>
+        <activity android:name=".NavActivity"></activity>
+        <activity android:name=".MoActivity1"></activity>
+        <activity android:name=".DinActivity1"></activity>
+        <activity android:name=".DinActivity2"></activity>
+        <activity android:name=".RagActivity1"></activity>
+        <activity android:name=".RagActivity2"></activity>
+    </application>
+
+</manifest>

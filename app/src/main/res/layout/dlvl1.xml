@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DinActivity1"
+    >
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="15sp"
+        android:id="@+id/tv_timer"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"></TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/question_tv"
+
+            android:textSize="20sp"></TextView>
+
+        <ImageView
+            android:id="@+id/questionimage"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:paddingBottom="15sp"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/rd">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="163dp"
+                    android:id="@+id/a">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="148dp">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="156dp"></RadioButton>
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15sp"
+                >
+
+                <ImageView
+                    android:layout_width="164dp"
+                    android:layout_height="151dp"
+                    android:id="@+id/option_a_img"></ImageView>
+
+                <ImageView
+                    android:layout_width="164dp"
+                    android:layout_height="146dp"
+                    android:id="@+id/option_b_img"
+                    >
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="164dp"
+                    android:layout_height="149dp"
+                    android:id="@+id/option_c_img"></ImageView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+         <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0sp"
+            android:text="next">
+
+        </Button>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
