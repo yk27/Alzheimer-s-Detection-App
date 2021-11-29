@@ -1,4 +1,4 @@
-# memory_game
+# Alzheimer-s-Detection-App
 
 # What is Alzheimer's disease?
 Alzheimer’s disease is a chronic ongoing condition. Its symptoms come on gradually and the effects on the brain are degenerative, meaning they cause slow decline. Treatment can help slow the progression of the disease and may improve quality of life. Hence earlier detection of Alzheimer’s is necessary in order to obtain treatment in the early stages.
