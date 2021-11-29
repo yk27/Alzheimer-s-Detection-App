@@ -1,5 +1,5 @@
 # Alzheimer-s-Detection-App
-The presence of Alzheimer's is detected by analyzing the various symptoms like memory loss, difficulty in writing or reading, etc. This app has 6 chapters (levels) each created by a team member. Each chapter has various tasks like games, quiz or questionnaire. The points scored after each chapter is used to determine the presence of Alzheimer's.
+The presence of Alzheimer's is detected by analyzing the various symptoms like memory loss, difficulty in writing or reading, etc. This app has 6 chapters (levels). Each chapter has various tasks like games, quiz or questionnaire. The points scored after each chapter is used to determine the presence of Alzheimer's.
 
 # What is Alzheimer's disease?
 Alzheimer’s disease is a chronic ongoing condition. Its symptoms come on gradually and the effects on the brain are degenerative, meaning they cause slow decline. Treatment can help slow the progression of the disease and may improve quality of life. Hence earlier detection of Alzheimer’s is necessary in order to obtain treatment in the early stages.
